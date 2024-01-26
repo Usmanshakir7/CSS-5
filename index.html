@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Classroom</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+                }
+        #navbar{
+            width: 100%;
+            height: 80px;
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid grey;
+         }
+         div.nav-left{
+            border: 1px solid grey;
+            width: 25%;
+            display: flex;
+            justify-content:flex-start;
+            align-items: center;
+         }
+         div.nav-left img{
+            width: 36px;
+            height: 40px;
+            padding: 0px 10px 0px 17px;
+
+         }
+         div.nav-left .img1{
+           padding-left: 33px;
+           height: 43px;
+         }
+         div.nav-left button{
+            border: none;
+            background-color: white;
+            cursor: pointer;
+         }
+         div.nav-left .img2{
+            
+            padding: 0px 18px 0px 40px;
+
+         }
+         div.nav-left h2{
+            font-weight: 700;
+            font-size: xx-large;
+            font-family: monospace;
+            text-transform: capitalize;
+
+         }
+         div.nav-right{
+                border: 1px solid grey;
+            width: 25%;
+            position: relative;
+         }
+         /* div.nav-right img{
+            position: absolute;
+            bottom: 2px;
+            right: 4px;
+         } */
+    .nav-rightimg1{
+        width: 25px;
+    height: 25px;
+   position: absolute;
+   bottom:11px;
+   right: 50px;
+    }
+    .nav-rightimg2{
+        width: 25px;
+    height: 25px;
+   position: absolute;
+   bottom:11px;
+   right: 12px;
+    }
+      
+         div#box{
+            display: flex;
+         }
+         div#items{
+            width: 25%;
+            height: 557px;
+            border-right: 1px solid grey;
+             }
+         div#main{
+            width: 75%;
+            height: 557px;
+            /* border: 1px solid grey; */
+            display: flex;
+         }
+div.main1{
+    width: 260px;
+    height: 300px;
+    border: 1px solid grey;
+    margin: 22px 0px 0px 22px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    }
+div.maintop{
+    border-bottom: 1px solid grey;
+    background-color: #43b269;
+    width: 100%;
+    height: 33%;
+    border-radius:4px 4px 0px 0px;
+
+}
+div.maintop:hover{
+    background-color: #1f793e;
+    font-size: 17px ;
+}
+div.mainbottom{
+    border-top: 1px solid grey;
+    width: 100%;
+    height: 20%;
+  position: relative;
+}
+/* div.mainbottom img{
+    width: 25px;
+    height: 25px;
+   position: absolute;
+   bottom: 0px;
+   right: 0px;
+
+} */
+.imgbottom2{
+     width: 25px;
+    height: 25px;
+   position: absolute;
+   bottom: 12px;
+   right: 46px;
+}
+.imgbottom1{
+     width: 25px;
+    height: 25px;
+   position: absolute;
+   bottom:11px;
+   right: 7px;
+}
+div.maintop h2 , p{
+    color: white;
+    font-weight: 600;
+    margin: 12px 0px 0px 12px;
+    text-transform: capitalize;
+}
+p.para{
+    color: rgb(226, 220, 220);
+    font-weight: 100;
+    margin: 7px 0px 4px 16px;
+}
+div.item1{
+    width: 100%;
+    height: 20%;
+    border-bottom:1px solid grey ;
+   display: flex;
+   justify-content:space-between;
+   flex-direction: column;
+}
+img{
+    width: 30px;
+    height: 30px;
+    padding: 0px 10px 0px 13px;
+    cursor: pointer;
+    color: grey;
+}
+li{
+    margin: 15px 17px 13px 6px
+    
+}
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black ;
+    
+}
+li:hover{
+    background-color:rgb(168, 168, 168) ;
+    border-radius: 0px 19px 19px 0px;
+}
+div.item2{
+    width: 100%;
+    height: 30%;
+    /* border:1px solid grey ; */
+}
+div.item3{
+    width: 100%;
+    height: 50%;
+    border-top:1px solid grey ;
+}
+
+    </style>
+</head>
+<body>
+    <nav id="navbar">
+        <div class="nav-left">
+         <button>   <img src="IMG/rectangle-list-regular.svg" alt="" class="img1"> </button>
+            <img src="IMG/house-solid.svg" alt="" class="img2"> 
+            <h2>Classroom</h2>
+        </div>
+        <div class="nav-right">
+            <img class="nav-rightimg1" src="IMG/plus-solid (1).svg" alt="">
+            <img class="nav-rightimg2"  src="IMG/ellipsis-vertical-solid.svg" alt="">
+         </div>
+    </nav>
+    <div id="box">
+        <div id="items">
+            <div class="item1">
+                <ul>
+                    <li><img src="IMG/house-solid.svg" alt=""><a href="#">HOME</a></li>
+                    <li><img src="IMG/calendar-regular.svg" alt=""><a href="#">CALENDER</a> </li>
+                </ul>
+            </div>
+            <div  class="item2">
+                <ul>
+                    <li><img src="IMG/graduation-cap-solid.svg" alt=""><a href="#">ENROLLED</a></li>
+                    <li><img src="IMG/rectangle-list-regular.svg" alt=""><a href="#">TO DO</a> </li>
+                        <li><img src="IMG/calendar-regular.svg" alt=""><a href="#">HOMEWORK</a></li>
+                </ul>
+            </div>
+            <div  class="item3">
+                <ul>
+                    <li><img src="IMG/box-archive-solid.svg" alt=""><a href="#">ARCHIVED CLASSES</a></li>
+                    <li><img src="IMG/gear-solid.svg" alt=""><a href="#">SETTINGS</a> </li>
+                </ul>
+            </div>
+
+        </div>
+        <div id="main">
+            <div class="main1">
+                <div class="maintop">
+                    <h2>web & app develop.. </h2>
+                    <p>batch-11 section-d</p>
+                    <p class="para">teacher name</p>
+                    
+                </div>
+                <div class="mainbottom">
+                   <img class="imgbottom2" src="IMG/user-regular.svg" alt="">
+                   <img class="imgbottom1" src="IMG/folder-regular.svg" alt="">
+                </div>
+            </div>
+            <div class="main1" >
+                <div class="maintop" style="background-color: #14539a;">
+                    <h2>web & app develop..</h2>
+                    <p>batch-11 section-d</p>
+                    <p class="para">teacher name</p>
+                </div>
+                <div class="mainbottom">
+                     <img class="imgbottom2" src="IMG/user-regular.svg" alt="">
+                   <img class="imgbottom1" src="IMG/folder-regular.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+</body>
+</html>
